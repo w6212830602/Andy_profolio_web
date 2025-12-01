@@ -1,10 +1,10 @@
-import { Code2, Database, Layout, Smartphone, Server, Terminal, User, Briefcase, Settings, MapPin, Coffee, FileCode, BarChart3, Users, Wallet, Bot, Gamepad2 } from 'lucide-react';
+import { Code2, Database, Layout, Smartphone, Server, Terminal, User, Briefcase, Settings, MapPin, Coffee, FileCode, BarChart3, Users, Wallet, Bot, Gamepad2, GraduationCap } from 'lucide-react';
 import { Project, Experience, Skill, SkillCategory } from './types';
 
 export const HERO_CONTENT = {
   greeting: "Hello, I'm Andy Li",
   tagline: "Building creative systems with code, data, and imagination.",
-  subTagline: "Software Engineer specializing in full-stack development with React, Next.js, and modern backend technologies.",
+  subTagline: "Software Developer specializing in Web, App & Mobile Experiences.",
 };
 
 export const CONTACT_INFO = {
@@ -80,6 +80,18 @@ export const PROJECTS: Project[] = [
 ];
 
 export const EXPERIENCES: Experience[] = [
+  {
+    id: 'sait',
+    role: 'Diploma in Software Development',
+    company: 'Southern Alberta Institute of Technology',
+    location: 'Calgary, AB',
+    period: 'May 2024 – Dec 2025',
+    description: [
+      'Graduated with Honours.',
+      'Specialized in full-stack software development, object-oriented design, and mobile application development.'
+    ],
+    icon: GraduationCap,
+  },
   {
     id: 'powerhouse',
     role: 'Software Developer Intern',
